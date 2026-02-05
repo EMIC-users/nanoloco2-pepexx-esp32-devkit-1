@@ -1,0 +1,10 @@
+-- IDF_TARGET not set, using default target: esp32
+-- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.37.0.windows.1") 
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- The ASM compiler identification is unknown
+-- Found assembler: xtensa-esp32-elf-gcc
+-- Warning: Did not find file Compiler/-ASM
+-- Configuring incomplete, errors occurred!
+See also "C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/pepexx/ESP32_DevKit_1/build/CMakeFiles/CMakeOutput.log".
+See also "C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/pepexx/ESP32_DevKit_1/build/CMakeFiles/CMakeError.log".
