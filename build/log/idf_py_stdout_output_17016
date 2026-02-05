@@ -1,12 +1,0 @@
-[0/1] cmd.exe /C "cd /D C:\Dropbox\EMIC\TARGETS\mariano.hunkeler__rfindustrial.com\pepexx\ESP32_DevKit_1\build && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_SIZE_TOOL=C:/Espressif/python_env/idf5.1_py3.11_env/Scripts/python.exe;-m;esp_idf_size -D MAP_FILE=C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/pepexx/ESP32_DevKit_1/build/pepexx-ESP32_DevKit_1.map -D OUTPUT_JSON= -P C:/Espressif/frameworks/esp-idf-v5.1/tools/cmake/run_size_tool.cmake"
-Total sizes:
-Used static DRAM:   10792 bytes ( 169944 remain, 6.0% used)
-      .data size:    8592 bytes
-      .bss  size:    2200 bytes
-Used static IRAM:   50814 bytes (  80258 remain, 38.8% used)
-      .text size:   49787 bytes
-   .vectors size:    1027 bytes
-Used Flash size :  136911 bytes
-           .text:   95159 bytes
-         .rodata:   41496 bytes
-Total image size:  196317 bytes (.bin may be padded larger)
