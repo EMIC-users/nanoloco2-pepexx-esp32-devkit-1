@@ -7,6 +7,7 @@
 
 void onReset()
 {
+    LEDs_led1_blink(1000, 500, 0);
 }
 
 

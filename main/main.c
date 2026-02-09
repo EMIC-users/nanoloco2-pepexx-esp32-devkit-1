@@ -16,6 +16,7 @@ void app_main(void)
 
     while(1)
     {
+        LEDs_led1_poll();
         vTaskDelay(1 / portTICK_PERIOD_MS);
     }
 }
