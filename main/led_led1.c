@@ -1,6 +1,7 @@
 #include "inc/led_led1.h"
 #include "inc/gpio.h"
 #include "inc/pins.h"
+#include "inc/systemTimer.h"
 
 static uint16_t blkLed_timerOn = 0;
 static uint16_t blkLed_period = 0;
@@ -19,7 +20,7 @@ void LEDs_led1_blink(uint16_t timeOn, uint16_t period, uint16_t times)
     blkLed_timerOn = timeOn;
     blkLed_period = period;
     blkLed_times = times;
-    blkLed_tStamp = esp_timer_get_time() / 1000; // ms
+    blkLed_tStamp = getSystemMilis();
     HAL_GPIO_PinSet(Led1, GPIO_HIGH);
 }
 
@@ -27,7 +28,7 @@ void LEDs_led1_poll(void)
 {
     if (blkLed_times > 0)
     {
-        uint32_t currentTime = esp_timer_get_time() / 1000;
+        uint32_t currentTime = getSystemMilis();
 
         if ((currentTime - blkLed_tStamp) >= blkLed_period)
         {
