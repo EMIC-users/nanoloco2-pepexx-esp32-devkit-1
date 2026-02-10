@@ -1,0 +1,10 @@
+Compiler supported targets: xtensa-esp32-elf
+
+CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+CMake Error at C:/Espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CheckIncludeFile.cmake:95 (try_compile):
+  Failed to configure test project build system.
+Call Stack (most recent call first):
+  C:/Espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CheckTypeSize.cmake:256 (check_include_file)
+  C:/Espressif/frameworks/esp-idf-v5.1/CMakeLists.txt:230 (check_type_size)
+
+
