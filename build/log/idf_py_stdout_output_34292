@@ -1,8 +1,0 @@
-[0/1] Re-running CMake...
--- The C compiler identification is unknown
--- The CXX compiler identification is unknown
--- Configuring incomplete, errors occurred!
-See also "C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/pepexx/ESP32_DevKit_1/build/CMakeFiles/CMakeOutput.log".
-See also "C:/Dropbox/EMIC/TARGETS/mariano.hunkeler__rfindustrial.com/pepexx/ESP32_DevKit_1/build/CMakeFiles/CMakeError.log".
-FAILED: build.ninja 
-C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe --regenerate-during-build -SC:\Dropbox\EMIC\TARGETS\mariano.hunkeler__rfindustrial.com\pepexx\ESP32_DevKit_1 -BC:\Dropbox\EMIC\TARGETS\mariano.hunkeler__rfindustrial.com\pepexx\ESP32_DevKit_1\build
